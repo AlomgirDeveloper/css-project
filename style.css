@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    scroll-behavior: smooth;
+    
 }
 :root{
     --color1:#fff ;
@@ -333,4 +333,78 @@ section{
     width: 60px;
     font-size: 30px;
     color: var(--color2);
+}
+
+/*--------- our hosing services ------------*/
+.our-price-plans{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.plan{
+   flex-basis: 28%;
+   background-color: #F5ECEC;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #ddd, -5px -5px 10px #ddd;
+}
+.plan-top{
+   
+    padding: 20px ;
+}
+.plan-top h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+}
+.plan-icon{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plan-icon i{
+    font-size: 45px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid var(--color2);
+    border-radius: 50% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color2);
+    
+}
+.plan-top h2{
+    text-align: center;
+    font-size: 30px;
+   
+}
+.plan-top h2 span{
+    font-size:18px;
+    color: var(--color2);
+}
+.plan-bottom h3{
+    background-color: var(--color2);
+   text-align: center;
+   padding: 5px;
+   font-size: 25px;
+   color: var(--color1);
+}
+.plan-bottom ul{
+    list-style-type: none;
+    padding: 20px;
+}
+.plan-bottom ul li{
+   line-height: 35px;
+   font-size: 20px;
+}
+.plan-bottom ul li i{
+     color: var(--color2);
+     margin-right: 10px;
+}
+.extra-color i,.extra-color3 li i{
+    color: var(--color3) !important;
+}
+.extra-color2{
+    background-color: var(--color3) !important;
 }
