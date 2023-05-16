@@ -408,3 +408,35 @@ section{
 .extra-color2{
     background-color: var(--color3) !important;
 }
+
+/*--------------- subscribe -----------*/
+#subscribe{
+    background-color: var(--color2);
+}
+.sub-box{
+    width: 500px;
+    margin: auto;
+    position: relative;
+}
+#sub-email{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius:20px;
+}
+#sub-btn{
+    width: 150px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #FFA500;
+    color: var(--color1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
