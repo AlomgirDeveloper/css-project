@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 :root{
     --color1:#fff ;
@@ -231,4 +232,30 @@ section{
    margin-bottom: 8px;
    font-weight: bold;
 }
+
+/*---------- happy clients -------------*/
+.our-clients{
+  background:linear-gradient(rgba(0, 0, 0, 0.591),rgba(0, 0, 0, 0.591)), url(./img/slider2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+}
+.our-clients-wrapper{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.our-clients-feedback{
+    flex-basis: 20%;
+    background-color: #18ca1860;
+    text-align: center;
+    padding: 35px 0;
+    color: var(--color1);
+}
+.our-clients-feedback h2{
+    font-size: 50px;
+}
+
 
