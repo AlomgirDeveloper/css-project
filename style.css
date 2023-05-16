@@ -311,3 +311,26 @@ section{
     padding: 10px;
     color: var(--color1);
 }
+
+
+/*-------------- our services  -------------*/
+#our-services{
+    background-color: #F7E8E9;
+}
+.our-services-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.our-services-decbox{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.icon-des i{
+    width: 60px;
+    font-size: 30px;
+    color: var(--color2);
+}
