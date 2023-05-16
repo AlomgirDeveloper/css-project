@@ -440,3 +440,22 @@ section{
     border-radius: 0 20px 20px 0;
     cursor: pointer;
 }
+
+/*-----------------  our work place ------------------*/
+.work-place{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 25px
+}
+.work-place-img{
+    overflow: hidden;
+    height: 292px;
+}
+.work-place-img img{
+    max-width:100%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.work-place-img img:hover{
+    transform: scale(1.3);
+}
